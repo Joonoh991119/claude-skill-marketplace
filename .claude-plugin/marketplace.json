@@ -140,6 +140,79 @@
     {"name": "sre-engineer", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Site reliability engineering — SLOs, incidents, on-call", "category": "automation", "tags": ["sre", "reliability", "slo", "incident"]},
     {"name": "chaos-engineer", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Chaos engineering to validate system resilience", "category": "automation", "tags": ["chaos", "resilience", "fault-injection"]},
     {"name": "firecrawl", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Firecrawl high-quality web scraping and crawling automation", "category": "automation", "tags": ["firecrawl", "scraping", "crawling", "web"]},
-    {"name": "atlassian-mcp", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Jira and Confluence workflow automation via Atlassian MCP", "category": "automation", "tags": ["atlassian", "jira", "confluence", "mcp"]}
+    {"name": "atlassian-mcp", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Jira and Confluence workflow automation via Atlassian MCP", "category": "automation", "tags": ["atlassian", "jira", "confluence", "mcp"]},
+
+    {"name": "arxiv-database", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "arXiv preprint search and analysis", "category": "literature-research", "tags": ["arxiv", "preprint", "papers"]},
+    {"name": "pubmed-database", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "PubMed biomedical literature search", "category": "literature-research", "tags": ["pubmed", "medline", "biomedical-literature"]},
+    {"name": "biorxiv-database", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "bioRxiv biology preprint search", "category": "literature-research", "tags": ["biorxiv", "preprint", "biology"]},
+    {"name": "openalex-database", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "OpenAlex scholarly paper metadata search", "category": "literature-research", "tags": ["openalex", "scholarly", "citations"]},
+    {"name": "literature-review", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Systematic literature review — search, screen, synthesize", "category": "literature-research", "tags": ["literature-review", "systematic-review", "synthesis"]},
+    {"name": "research-lookup", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Broad research and paper discovery across databases", "category": "literature-research", "tags": ["research", "lookup", "discovery"]},
+    {"name": "paper-lookup", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Fetch detailed info for a specific paper by DOI or title", "category": "literature-research", "tags": ["paper", "doi", "citation"]},
+    {"name": "paper-2-web", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Convert a paper into a web post or blog article", "category": "literature-research", "tags": ["paper", "web", "blog", "conversion"]},
+    {"name": "bgpt-paper-search", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "BioGPT-based biomedical paper semantic search", "category": "literature-research", "tags": ["biogpt", "paper-search", "biomedical"]},
+    {"name": "paperzilla", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Automated paper summarization and review generation", "category": "literature-research", "tags": ["paper", "summary", "review"]},
+    {"name": "citation-management", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Citation management and reference formatting (APA, MLA, Vancouver)", "category": "literature-research", "tags": ["citations", "references", "bibliography"]},
+    {"name": "scientific-writing", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Academic manuscript writing and editing", "category": "literature-research", "tags": ["writing", "academic", "manuscript"]},
+    {"name": "scientific-brainstorming", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Research idea brainstorming and conceptual exploration", "category": "literature-research", "tags": ["brainstorming", "ideas", "research"]},
+    {"name": "scientific-critical-thinking", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Critical analysis of scientific papers — methods, stats, claims", "category": "literature-research", "tags": ["critical-thinking", "evaluation", "methodology"]},
+    {"name": "peer-review", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Conduct a structured peer review of a manuscript", "category": "literature-research", "tags": ["peer-review", "manuscript", "evaluation"]},
+    {"name": "scholar-evaluation", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Evaluate researcher/group academic impact (h-index, citations)", "category": "literature-research", "tags": ["scholar", "impact", "h-index"]},
+    {"name": "research-grants", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Research grant proposal writing support", "category": "literature-research", "tags": ["grants", "funding", "proposal"]},
+    {"name": "pyzotero", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "PyZotero Zotero library management API", "category": "literature-research", "tags": ["zotero", "references", "bibliography"]},
+
+    {"name": "pdf", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "PDF generation, parsing, and editing", "category": "documents-presentation", "tags": ["pdf", "document", "parsing"]},
+    {"name": "xlsx", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Excel/XLSX spreadsheet generation and analysis", "category": "documents-presentation", "tags": ["excel", "xlsx", "spreadsheet"]},
+    {"name": "docx", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Word/DOCX document creation and editing", "category": "documents-presentation", "tags": ["word", "docx", "document"]},
+    {"name": "pptx", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "PowerPoint/PPTX presentation generation", "category": "documents-presentation", "tags": ["powerpoint", "pptx", "slides", "presentation"]},
+    {"name": "pptx-posters", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "PPTX-based academic conference poster creation", "category": "documents-presentation", "tags": ["poster", "pptx", "academic", "conference"]},
+    {"name": "latex-posters", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "LaTeX academic poster and paper typesetting", "category": "documents-presentation", "tags": ["latex", "poster", "typesetting", "beamer"]},
+    {"name": "scientific-slides", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Academic talk slide deck design", "category": "documents-presentation", "tags": ["slides", "academic", "presentation", "beamer"]},
+    {"name": "scientific-schematics", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Scientific overview diagrams, model schematics, and circuit figures", "category": "documents-presentation", "tags": ["schematics", "diagrams", "figures"]},
+    {"name": "venue-templates", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Journal/conference submission templates (NeurIPS, Nature, Cell, etc.)", "category": "documents-presentation", "tags": ["templates", "journal", "conference", "submission"]},
+    {"name": "open-notebook", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Research open notebook writing and Jupyter integration", "category": "documents-presentation", "tags": ["notebook", "jupyter", "research"]},
+    {"name": "markitdown", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Convert any file format (PDF, DOCX, PPTX…) to Markdown", "category": "documents-presentation", "tags": ["markdown", "conversion", "markitdown"]},
+    {"name": "writing", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "General document and content writing and editing", "category": "documents-presentation", "tags": ["writing", "content", "editing"]},
+    {"name": "anthropic-skills-pptx", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Anthropic-powered PPTX presentation builder (anthropic-skills:pptx)", "category": "documents-presentation", "tags": ["pptx", "anthropic-skills", "presentation"]},
+    {"name": "anthropic-skills-docx", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Anthropic-powered DOCX document builder (anthropic-skills:docx)", "category": "documents-presentation", "tags": ["docx", "anthropic-skills", "document"]},
+    {"name": "anthropic-skills-pdf", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Anthropic-powered PDF generation (anthropic-skills:pdf)", "category": "documents-presentation", "tags": ["pdf", "anthropic-skills"]},
+    {"name": "anthropic-skills-xlsx", "source": {"source": "github", "repo": "anthropic-ai/claude-code"}, "description": "Anthropic-powered XLSX spreadsheet builder (anthropic-skills:xlsx)", "category": "documents-presentation", "tags": ["xlsx", "anthropic-skills", "spreadsheet"]},
+
+    {
+      "name": "ai-science-reading-tutor",
+      "source": {"source": "github", "repo": "Joonoh991119/ai-science-reading-tutor"},
+      "description": "AI 과학 논문 독해 튜터 스킬셋 — corpus-manager, rag-pipeline (hybrid dense+BM25), paper-processor, equation-parser, ontology-rag, sci-viz, eval-runner, workflow-orchestrator, tutor-content-gen 등 14개 스킬",
+      "category": "research-tools",
+      "tags": ["rag", "corpus", "paper-processing", "scientific-reading", "tutor", "csnl"],
+      "commands": ["./skills/", "./.claude/skills/"],
+      "strict": false
+    },
+    {
+      "name": "boec-simulator",
+      "source": {"source": "github", "repo": "Joonoh991119/boec_simulator"},
+      "description": "BOEC (Biophysical Oscillatory Encoding Circuit) 시뮬레이터 — math-reviewer, numerical-auditor, livescript-builder, qa-validator 전문 에이전트 오케스트레이터",
+      "category": "comp-neuroscience",
+      "tags": ["boec", "neural-oscillation", "circuit-simulation", "matlab", "agent-orchestration", "csnl"],
+      "agents": ["./.claude/agents/"],
+      "strict": false
+    },
+    {
+      "name": "lab-chore",
+      "source": {"source": "github", "repo": "Joonoh991119/lab_chore"},
+      "description": "NRF 중견연구 연차보고서 예산 편성 자동화 — 5개 연동 시트 (연구원별 편성, 지출통계, 장비목록, 예산총괄, 제출일정) 스프레드시트 생성",
+      "category": "automation",
+      "tags": ["nrf", "budget", "grant", "spreadsheet", "lab-management", "csnl"],
+      "commands": ["./grant-budget/"],
+      "strict": false
+    },
+    {
+      "name": "csnl-lab-knowledge-system",
+      "source": {"source": "github", "repo": "CSNL-vnilab/lab-knowledge-system"},
+      "description": "CSNL 연구실 지식 관리 시스템 — csnl-meeting-notes 스킬 (AI Knowledge Orchestrator: Slack, Zotero, Google Calendar, Notion 통합 회의록 작성)",
+      "category": "automation",
+      "tags": ["meeting-notes", "knowledge-management", "csnl", "korean", "zotero", "slack"],
+      "commands": ["./skills/"],
+      "strict": false
+    }
   ]
 }
